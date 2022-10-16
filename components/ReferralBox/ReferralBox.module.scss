@@ -1,0 +1,46 @@
+.referralBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 544px;
+  height: 49.8125rem;
+  background: #f8f4f9 0% 0% no-repeat padding-box;
+  border: 0.0625rem solid #1f343e;
+  border-radius: 1rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 26rem;
+  margin: 4rem auto 0 auto;
+}
+
+.title {
+  text-align: left;
+  font: normal normal normal 3rem/4.5rem Caveat Brush;
+  letter-spacing: 0rem;
+  color: #1f343e;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  text-align: left;
+  font: normal normal normal 1.25rem/2rem Noto Sans;
+  letter-spacing: 0rem;
+  color: #1f343e;
+}
+
+.bottomText {
+  text-align: left;
+  font: normal normal normal 1rem/2rem Noto Sans;
+  letter-spacing: 0rem;
+  color: #6d7a80;
+  justify-content: flex-end;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

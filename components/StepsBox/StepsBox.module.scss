@@ -1,0 +1,9 @@
+.stepsBox {
+  width: 448px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 4rem;
+  -moz-row-gap: 4rem;
+  row-gap: 4rem;
+}

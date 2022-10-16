@@ -1,7 +1,13 @@
+require("dotenv").config();
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  env: {
+    BIN_PASS: process.env.BIN_PASS,
+  },
+};
+
+module.exports = nextConfig;

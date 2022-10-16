@@ -1,0 +1,30 @@
+.error {
+  text-align: left;
+  font: normal normal normal 0.75rem/1.5rem Noto Sans;
+  letter-spacing: 0rem;
+  color: #ed6f82;
+  margin-bottom: 0.4375rem;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  width: 56px;
+  height: 64px;
+  margin-bottom: 1rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-left: 0.0625rem solid #1f343e;
+  border-top: 0.0625rem solid #1f343e;
+  border-right: none;
+  border-bottom: 0.0625rem solid #1f343e;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.image {
+  margin-top: 2px !important;
+}

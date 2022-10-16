@@ -1,0 +1,88 @@
+.successBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 34rem;
+  height: 49.8125rem;
+  background: #f8f4f9 0% 0% no-repeat padding-box;
+  border: 0.0625rem solid #1f343e;
+  border-radius: 1rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 26rem;
+  margin: 4rem auto 0 auto;
+}
+
+.title {
+  text-align: left;
+  font: normal normal normal 3rem/4.5rem Caveat Brush;
+  letter-spacing: 0rem;
+  color: #1f343e;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  margin-bottom: 4rem;
+  text-align: left;
+  font: normal normal normal 1.25rem/2rem Noto Sans;
+  letter-spacing: 0rem;
+  color: #1f343e;
+}
+
+.inputContainer {
+  display: flex;
+}
+
+.button {
+  text-transform: capitalize;
+  width: 6rem;
+  height: 4rem;
+  color: white;
+  text-align: center;
+  font: bold 1.25rem/1.5rem Noto Sans;
+  letter-spacing: 0rem;
+  color: #ffffff;
+  background: #4eb3e3 0% 0% no-repeat padding-box;
+  border-left: none;
+  border-top: 0.0625rem solid #1f343e;
+  border-right: 0.0625rem solid #1f343e;
+  border-bottom: 0.0625rem solid #1f343e;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  cursor: pointer;
+}
+
+.copied {
+  text-align: left;
+  font: normal normal normal 1.3125rem/2rem Caveat Brush;
+  letter-spacing: 0rem;
+  color: #1f343e;
+  text-transform: uppercase;
+}
+
+.copySuccess {
+  position: absolute;
+  z-index: 9999;
+  text-align: left;
+  font: normal normal normal 24px/32px Caveat Brush;
+  letter-spacing: 0px;
+  color: #1f343e;
+  text-transform: uppercase;
+}
+
+.bottomText {
+  margin-top: 11.5625rem;
+  text-align: left;
+  font: normal normal normal 1rem/2rem Noto Sans;
+  letter-spacing: 0rem;
+  color: #6d7a80;
+  justify-content: flex-end;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

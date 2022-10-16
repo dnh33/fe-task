@@ -1,0 +1,43 @@
+.button {
+  width: 312px;
+  height: 80px;
+  color: #f8f4f9;
+  background: #45565e 0% 0% no-repeat padding-box;
+  border: 1px solid #1f343e;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.image {
+  display: flex;
+  margin-left: 24px;
+  align-items: center;
+}
+
+.textbox {
+  margin-left: 20px;
+}
+
+.small {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font: normal 16px Noto Sans;
+  letter-spacing: 0px;
+  color: #f8f4f9;
+}
+
+.bold {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font: bold 20px/16px Gadugi;
+  letter-spacing: 0px;
+  color: #f8f4f9;
+}
