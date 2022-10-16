@@ -52,8 +52,8 @@
 }
 
 .menuButton,
-.menuButton::before,
-.menuButton::after {
+.menuButton2,
+.menuButton3 {
   display: block;
   background-color: #bdc1c3;
   border: 0.0625rem solid rgb(0, 0, 0);
@@ -64,17 +64,17 @@
   border-radius: 0.125rem;
 }
 
-.menuButton::before {
+.menuButton2 {
   content: "";
-  margin-top: -0.58rem;
+  margin-top: -0.8rem;
 }
 
-.menuButton::after {
+.menuButton3 {
   content: "";
-  margin-top: 0.4rem;
+  margin-top: 0.8rem;
 }
 
-.menuToggle:checked + .menuButtonContainer .menuButton::before {
+.menuToggle:checked + .menuButtonContainer .menuButton2 {
   margin-top: 0rem;
   transform: rotate(405deg);
   width: 1.5625rem;
@@ -85,7 +85,7 @@
   border: #bdc1c3;
 }
 
-.menuToggle:checked + .menuButtonContainer .menuButton::after {
+.menuToggle:checked + .menuButtonContainer .menuButton3 {
   margin-top: 0rem;
   transform: rotate(-405deg);
   width: 1.5625rem;
@@ -111,6 +111,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    background-color: #fff;
     margin-top: 73px;
     flex-direction: column;
     justify-content: center;

@@ -27,6 +27,8 @@ export default function Navbar() {
           />
           <label className={styles.menuButtonContainer} htmlFor="menu-toggle">
             <div className={styles.menuButton}></div>
+            <div className={styles.menuButton2}></div>
+            <div className={styles.menuButton3}></div>
           </label>
           <ul className={styles.menu}>
             <NavLink url="/chrome-extension">
