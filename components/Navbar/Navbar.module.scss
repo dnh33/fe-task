@@ -41,10 +41,10 @@
   display: none;
   height: 100%;
   width: 1.875rem;
-  cursor: pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .menuToggle {
@@ -66,7 +66,7 @@
 
 .menuButton::before {
   content: "";
-  margin-top: -0.5rem;
+  margin-top: -0.58rem;
 }
 
 .menuButton::after {
