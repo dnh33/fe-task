@@ -7,15 +7,17 @@ const CompanyBio = () => {
   return (
     <div>
       <div className={styles.logo}>
-        <NavLink url="/">
-          <Image
-            src="/logo.svg"
-            alt="Rate Punk's company logo"
-            className="logo"
-            width={125}
-            height={32}
-          />
-        </NavLink>
+        <ul>
+          <NavLink url="/">
+            <Image
+              src="/logo.svg"
+              alt="Rate Punk's company logo"
+              className="logo"
+              width={125}
+              height={32}
+            />
+          </NavLink>
+        </ul>
       </div>
       <p className={styles.text}>
         Ratepunk compares hotel room prices across the major online travel

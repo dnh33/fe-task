@@ -1,12 +1,12 @@
 .list {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 1rem;
 }
 
 .link {
   text-align: left;
-  font: normal normal normal 16px/24px Noto Sans;
-  letter-spacing: 0px;
+  font: normal 1rem/1.5rem Noto Sans, sans-serif !important;
+  letter-spacing: 0rem;
   color: #1f343e;
 }

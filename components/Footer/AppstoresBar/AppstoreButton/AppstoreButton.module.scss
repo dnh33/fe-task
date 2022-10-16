@@ -1,10 +1,10 @@
 .button {
-  width: 312px;
-  height: 80px;
+  width: 19.5rem;
+  height: 5rem;
   color: #f8f4f9;
   background: #45565e 0% 0% no-repeat padding-box;
-  border: 1px solid #1f343e;
-  border-radius: 16px;
+  border: 0.0625rem solid #1f343e;
+  border-radius: 1rem;
   cursor: pointer;
 }
 
@@ -16,20 +16,20 @@
 
 .image {
   display: flex;
-  margin-left: 24px;
+  margin-left: 1.5rem;
   align-items: center;
 }
 
 .textbox {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .small {
   margin: 0;
   padding: 0;
   text-align: left;
-  font: normal 16px Noto Sans;
-  letter-spacing: 0px;
+  font: normal 1rem Noto Sans, sans-serif !important;
+  letter-spacing: 0rem;
   color: #f8f4f9;
 }
 
@@ -37,7 +37,7 @@
   margin: 0;
   padding: 0;
   text-align: left;
-  font: bold 20px/16px Gadugi;
-  letter-spacing: 0px;
+  font: bold 1.25rem/1rem Gadugi;
+  letter-spacing: 0rem;
   color: #f8f4f9;
 }

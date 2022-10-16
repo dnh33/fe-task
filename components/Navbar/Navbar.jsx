@@ -9,14 +9,16 @@ export default function Navbar() {
       <nav className={styles.navbar}>
         <div className={styles.wrapper}>
           <div className={styles.logo}>
-            <NavLink url="/">
-              <Image
-                src="/logo.svg"
-                alt="Rate Punk's company logo"
-                width={125}
-                height={32}
-              />
-            </NavLink>
+            <ul>
+              <NavLink url="/">
+                <Image
+                  src="/logo.svg"
+                  alt="Rate Punk's company logo"
+                  width={125}
+                  height={32}
+                />
+              </NavLink>
+            </ul>
           </div>
           <input
             id="menu-toggle"

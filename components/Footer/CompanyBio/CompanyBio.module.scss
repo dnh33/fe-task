@@ -1,13 +1,25 @@
 .logo {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 .text {
   width: 34rem;
   height: 5.875rem;
-  margin-bottom: 46px;
+  margin-bottom: 2.875rem;
 
   text-align: left;
-  font: normal normal normal 16px/24px Noto Sans;
-  letter-spacing: 0px;
+  font: normal 1rem/1.5rem Noto Sans, sans-serif !important;
+  letter-spacing: 0rem;
   color: #1f343e;
+}
+
+@media (max-width: 70rem) /* 1120px */ {
+  .text {
+    width: 311px;
+    height: 10.375rem;
+    margin-bottom: 1.875rem;
+    text-align: left;
+    font: normal 1rem/1.5rem Noto Sans, sans-serif !important;
+    letter-spacing: 0rem;
+    color: #1f343e;
+  }
 }

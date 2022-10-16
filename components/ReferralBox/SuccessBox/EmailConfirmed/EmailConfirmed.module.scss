@@ -6,15 +6,15 @@
 .iconContainer {
   display: flex;
   justify-content: center;
-  height: 32px;
-  width: 32px;
-  margin-right: 16px;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
 }
 
 .text {
   text-align: left;
-  font: normal normal bold 16px/24px Noto Sans;
-  letter-spacing: 0px;
+  font: bold 1rem/1.5rem Noto Sans Bold, sans-serif !important;
+  letter-spacing: 0rem;
   color: #1f343e;
 }
 

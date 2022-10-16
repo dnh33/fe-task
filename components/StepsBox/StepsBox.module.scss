@@ -1,9 +1,18 @@
 .stepsBox {
-  width: 448px;
+  width: 28rem;
   height: 100%;
   display: flex;
   flex-direction: column;
   grid-row-gap: 4rem;
   -moz-row-gap: 4rem;
   row-gap: 4rem;
+}
+
+@media (max-width: 70rem) /* 1120px */ {
+  .stepsBox {
+    width: 100%;
+    height: 100%;
+    margin: 4rem auto 0 auto;
+    max-width: 1120px;
+  }
 }
