@@ -23,10 +23,8 @@ const Form = () => {
     console.log(data);
     // Send the data to the server in JSON format.
     const JSONdata = JSON.stringify(data);
-
     // API endpoint where we send form data.
     const endpoint = "https://api.jsonbin.io/v3/b";
-
     // Form the request for sending data to the server.
     const options = {
       // The method is POST because we are sending data.

@@ -23,11 +23,14 @@
   color: #1f343e;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 32px;
   padding: 0;
 }
 
 .description {
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 64px;
   font: normal 1.25rem/2rem Noto Sans, sans-serif !important;
   letter-spacing: 0rem;
   color: #1f343e;
@@ -43,6 +46,21 @@
 
 .capitalize {
   text-transform: capitalize;
+}
+
+@media (max-width: 25rem) /* 400px */ {
+  .title {
+    margin-bottom: 1rem;
+
+    font: bold 2rem CaveatBrush-Regular, sans-serif !important;
+  }
+
+  .description {
+    width: 100%;
+    height: 118px;
+    margin-bottom: 1rem !important;
+    font: normal 16px Noto Sans, sans-serif !important;
+  }
 }
 
 @media (max-width: 70rem) /* 1120px */ {
@@ -69,11 +87,11 @@
   .description {
     width: 100%;
     height: 118px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0rem;
     font: normal 16px Noto Sans, sans-serif !important;
   }
   .bottomText {
-    margin-top: 4.4375rem;
+    margin-top: 4.85rem;
     text-align: left;
     font: normal 1rem Noto Sans, sans-serif !important;
     letter-spacing: 0rem;

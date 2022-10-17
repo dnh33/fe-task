@@ -1,6 +1,8 @@
 .inputContainer {
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .iconContainer {
@@ -22,11 +24,13 @@
 }
 
 .error {
+  position: absolute;
+  z-index: 9999;
+  top: 530px;
   text-align: left;
-  font: bold 0.75rem/1.5rem Noto Sans Bold, sans-serif !important;
+  font: normal 0.75rem/1.5rem Noto Sans normal, sans-serif !important;
   letter-spacing: 0rem;
   color: #ed6f82;
-  margin-bottom: 0.4375rem;
 }
 
 @media (max-width: 70rem) /* 1120px */ {
@@ -41,7 +45,7 @@
   .error {
     position: absolute;
     z-index: 9999;
-    top: 378px;
+    top: 369px;
     padding: 0;
     margin: 0;
   }
