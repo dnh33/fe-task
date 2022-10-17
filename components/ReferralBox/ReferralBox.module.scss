@@ -37,11 +37,11 @@
 }
 
 .bottomText {
+  margin-top: -1rem;
   text-align: left;
   font: normal 1rem/2rem Noto Sans, sans-serif !important;
   letter-spacing: 0rem;
   color: #6d7a80;
-  justify-content: flex-end;
 }
 
 .capitalize {
@@ -93,9 +93,8 @@
   .bottomText {
     margin-top: 4.85rem;
     text-align: left;
-    font: normal 1rem Noto Sans, sans-serif !important;
+    font: normal 16px/24px Noto Sans normal, sans-serif;
     letter-spacing: 0rem;
     color: #6d7a80;
-    justify-content: flex-end;
   }
 }
