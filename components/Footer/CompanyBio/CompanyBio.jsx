@@ -20,9 +20,9 @@ const CompanyBio = () => {
         </ul>
       </div>
       <p className={styles.text}>
-        Brand Name compares various prices across the major online agencies.
-        When you search for anything, Brand Name scans the top online sites and
-        runs a price comparison, so you can be confident in knowing you’re
+        Company Name compares various prices across the major online agencies.
+        When you search for anything, Company Name scans the top online sites
+        and runs a price comparison, so you can be confident in knowing you’re
         getting the best deal!
       </p>
       <Copyright>© 2021 Company Name. All Rights Reserved.</Copyright>
