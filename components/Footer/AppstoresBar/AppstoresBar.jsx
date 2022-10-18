@@ -7,14 +7,14 @@ const AppstoresBar = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <AppstoreButton
-          url="https://chrome.google.com/webstore/detail/ratepunk-same-hotel-way-c/gdaioanblcnghddimngklkhgcbomfdck?utm_source=ratepunk"
+          url="/"
           src="/chrome.svg"
           alt="Get our app on the chrome web store"
         >
           chrome web
         </AppstoreButton>
         <AppstoreButton
-          url="https://apps.apple.com/app/ratepunk/id1607823726"
+          url="/"
           src="/apple.svg"
           alt="Get our app on the apple app store"
         >

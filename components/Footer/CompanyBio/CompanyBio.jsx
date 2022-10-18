@@ -10,8 +10,8 @@ const CompanyBio = () => {
         <ul>
           <NavLink url="/">
             <Image
-              src="/logo.svg"
-              alt="Rate Punk's company logo"
+              src="https://fakeimg.pl/125x32/?text=Logo"
+              alt="company logo"
               className="logo"
               width={125}
               height={32}
@@ -20,12 +20,12 @@ const CompanyBio = () => {
         </ul>
       </div>
       <p className={styles.text}>
-        Ratepunk compares hotel room prices across the major online travel
-        agencies. When you search for a room, Ratepunk extension scans the top
-        booking sites and runs a price comparison, so you can be confident in
-        knowing you’re getting the best deal!
+        Brand Name compares various prices across the major online agencies.
+        When you search for anything, Brand Name scans the top online sites and
+        runs a price comparison, so you can be confident in knowing you’re
+        getting the best deal!
       </p>
-      <Copyright>© 2021 Ratepunk. All Rights Reserved.</Copyright>
+      <Copyright>© 2021 Company Name. All Rights Reserved.</Copyright>
     </div>
   );
 };

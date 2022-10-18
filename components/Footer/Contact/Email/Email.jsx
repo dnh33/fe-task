@@ -18,7 +18,7 @@ const Email = () => {
                   height={13}
                 />
               </div>
-              <p className={styles.text}>hi@ratepunk.com</p>
+              <p className={styles.text}>hi@company.com</p>
             </div>
           </a>
         </Link>

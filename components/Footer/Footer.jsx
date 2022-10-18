@@ -10,7 +10,6 @@ export default function Footer() {
   return (
     <>
       <AppstoresBar />
-
       <footer className={styles.footer}>
         <section className={styles.flexbox}>
           <CompanyBio className={styles.company} />

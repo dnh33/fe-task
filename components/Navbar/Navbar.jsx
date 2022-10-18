@@ -12,8 +12,8 @@ export default function Navbar() {
             <ul>
               <NavLink url="/">
                 <Image
-                  src="/logo.svg"
-                  alt="Rate Punk's company logo"
+                  src="https://fakeimg.pl/125x32/?retina=1&text=Logo&font=noto"
+                  alt="Company logo"
                   width={125}
                   height={32}
                 />

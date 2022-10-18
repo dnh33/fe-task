@@ -4,7 +4,7 @@ import EmailConfirmed from "./EmailConfirmed/EmailConfirmed";
 import styles from "./SuccessBox.module.scss";
 
 const SuccessBox = () => {
-  const [value, setValue] = useState("https://ratepunk.com/referral");
+  const [value, setValue] = useState("https://company.com/referral");
   const [copied, setCopied] = useState(false);
 
   return (
@@ -13,7 +13,7 @@ const SuccessBox = () => {
         <h1 className={styles.title}>refer friends and get rewards</h1>
         <p className={styles.description}>
           <span className={styles.capitalize}>refer</span> your friends to us
-          and earn hotel booking vouchers.{" "}
+          and earn internet vouchers.{" "}
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <span className={styles.capitalize}>we'll</span> give you 1 coin for
           each friend that installs our extension.{" "}

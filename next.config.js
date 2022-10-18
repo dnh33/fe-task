@@ -11,6 +11,9 @@ const nextConfig = {
   env: {
     BIN_PASS: process.env.BIN_PASS,
   },
+  images: {
+    domains: ["fakeimg.pl"],
+  },
 };
 
 module.exports = nextConfig;
